@@ -1,0 +1,25 @@
+{
+  "xtc_node":{
+    "ip":"10.75.58.140",
+    "username":"cisco",
+    "password":"cisco123"
+  },
+  "vpp_node":{
+    "ip":"10.75.58.120",
+    "username":"root",
+    "password":"cisco123"
+  },
+  "node_list":["node1","node2","node3"],
+  "node_table":{
+      "node1":"192.168.0.1",
+      "node2":"192.168.0.2",
+      "node3":"192.168.0.3"
+  },
+  "node_sid":{
+      "node1": "fc00:a:1:0:1::",
+      "node2": "fc00:b:1:0:1::",
+      "node3": "fc00:c:1:0:1::"
+  },
+  "node_prefix":["10.0.1.0/24","10.0.2.0/24"],
+  "node_dx4_sid":["fc00:2::a","fc00:3::a"]
+}
