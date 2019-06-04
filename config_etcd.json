@@ -1,0 +1,31 @@
+{
+  "xtc_node":{
+    "ip":"10.xx.xx.xx",
+    "username":"cisco",
+    "password":"cisco123"
+  },
+  "vpp_node":{
+    "ip":"10.75.58.120",
+    "username":"root",
+    "password":"cisco123"
+  },
+  "node_list":["node1","node2","node3"],
+  "node_table":{
+      "node1":"2.2.2.2",
+      "node2":"3.3.3.3",
+      "node3":"1.1.1.1"
+  },
+  "etcd_node":{
+      "ip":"jp.debug.tech",
+      "port":"52379"
+  },
+  "node_hostname":{
+      "node1": "RouterA",
+      "node2": "RouterB",
+      "node3": "SR-PCE"
+  },
+  "node_sid":{
+  },
+  "node_prefix":["10.0.1.0/24","10.0.2.0/24"],
+  "node_dx4_sid":["fc00:2::a","fc00:3::a"]
+}
