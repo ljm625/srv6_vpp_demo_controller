@@ -8,7 +8,7 @@ https://www.sdnlab.com/23218.html
 
 main_auto_fetchSID_version.py为改进版，使用IGP来获取NCS5500路由器上End对应的SID
 
-main_auto_fetchSID_version.py为最新版，该版本无需XTC控制器，将网络中一台NCS5500或者XR设备作为控制器算路即可。
+main_auto_etcd.py为最新版，该版本无需XTC控制器，将网络中一台NCS5500或者XR设备作为控制器算路即可。
 
 每台NCS5500通过docker的辅助模块，从gRPC获取自己的SID信息，并同步到etcd，该脚本通过etcd取到SID信息，在进行算路。
 
